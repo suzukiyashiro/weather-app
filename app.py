@@ -1,13 +1,8 @@
 import streamlit as st
 import requests
-import os
-from dotenv import load_dotenv
-
-load_dotenv()
 
 # WeatherstackのAPIキーを指定します
-API_KEY = os.environ['API_KEY']
-print(API_KEY)
+API_KEY = '2ecc8c0806837e5ce6d7905b07fe89de' # 知られても損はしないので.envに入れてない
 
 # 対象となる都市を指定します
 cities = {
